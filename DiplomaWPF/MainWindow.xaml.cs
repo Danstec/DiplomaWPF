@@ -129,10 +129,7 @@ namespace DiplomaWPF
             bmpImage.StreamSource = stream;
             bmpImage.EndInit();
 
-            resultImage.Source = bmpImage;
-
-            //finalBmp.Save("C:\\finalPic.jpg", ImageFormat.Jpeg);
-            
+            resultImage.Source = bmpImage;            
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
